@@ -69,12 +69,14 @@ function buttonDisabler(){
         like.disabled = false
         minus.disabled = false
         plus.disabled = false
+        submit.disabled = false
         pause.innerHTML = "pause" 
     }
     else{
         like.disabled = true
         minus.disabled = true
         plus.disabled = true
+        submit.disabled = true
         pause.innerHTML = "resume" 
     }
 }
